@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "
+http://testng.org/testng-1.0.dtd"
+        >
+<!-- <suite thread-count="2" parallel="none" name="Deals"> -->
+<suite thread-count="2" parallel="methods" name="Deals">
+    <!-- <parameter name="Properties" value="src/main/resources/stage/application.properties"
+    /> -->
+    <test name="Deals_Regression">
+        <classes>
+            <class name="YahooFinancePageTest">
+            </class>
+            <!-- <class name="com.tekioncloud.sales.test.regression.web.Deals.testcases.DealsCustomerListTestCases" -->
+        </classes>
+    </test>
+</suite> <!-- Suite -->
